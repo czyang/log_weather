@@ -1,0 +1,30 @@
+{
+  "name": "log_weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/weather.js",
+  "scripts": {
+    "start": "tsc && node dist/weather.js",
+    "demo": "tsc && node dist/weather.js \"New York, 10005, Tokyo, São Paulo, Pluto\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czyang/log_weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czyang/log_weather/issues"
+  },
+  "homepage": "https://github.com/czyang/log_weather#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0"
+  }
+}
