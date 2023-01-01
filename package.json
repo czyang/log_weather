@@ -20,7 +20,7 @@
   "homepage": "https://github.com/czyang/log_weather#readme",
   "devDependencies": {
     "@types/node": "^14.0.1",
-    "ts-loader": "^7.0.4",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.9.2"
   },
   "dependencies": {
